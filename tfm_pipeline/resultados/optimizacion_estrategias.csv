@@ -1,0 +1,4 @@
+estrategia,evaluaciones,mejor_f1,tiempo_s
+Rejilla,16,0.9506,16.1
+Aleatoria,30,0.9501,29.4
+Bayesiana (Optuna/TPE),30,0.9513,44.6

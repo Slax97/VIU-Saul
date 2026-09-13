@@ -1,0 +1,35 @@
+{
+  "modelo_final": "LightGBM",
+  "hiperparametros": {
+    "n_estimators": 355,
+    "num_leaves": 118,
+    "max_depth": 11,
+    "learning_rate": 0.10054871218671431,
+    "subsample": 0.7061583976302458,
+    "colsample_bytree": 0.9437884106748379,
+    "reg_lambda": 3.2161320271888854,
+    "min_child_samples": 6
+  },
+  "n_variables": 54,
+  "subconjunto": "filter_corr",
+  "imputador": "mediana+indicador",
+  "escalador": "StandardScaler",
+  "balanceo": "sin balanceo (umbral ajustable)",
+  "umbral_f1_maximo": 0.416,
+  "umbral_recall_097": 0.369,
+  "f1_cv_anidada": 0.9608,
+  "metricas_test": {
+    "accuracy": 0.9732,
+    "balanced_accuracy": 0.9705,
+    "precision": 0.9615,
+    "recall": 0.9618,
+    "especificidad": 0.9793,
+    "f1": 0.9616,
+    "mcc": 0.941,
+    "roc_auc": 0.9956,
+    "pr_auc": 0.9924,
+    "brier": 0.0207
+  },
+  "modo_ejecucion": "completo",
+  "semilla": 42
+}

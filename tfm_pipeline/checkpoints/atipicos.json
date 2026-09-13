@@ -1,0 +1,16 @@
+{
+  "pct_filas_con_algun_atipico": 69.53,
+  "pct_celdas_atipicas": 3.2,
+  "top_variables": {
+    "file_length": 46.42,
+    "qty_hyphen_url": 17.54,
+    "qty_dot_directory": 17.39,
+    "time_domain_expiration": 16.38,
+    "qty_dot_file": 16.25,
+    "qty_mx_servers": 15.79,
+    "qty_hyphen_domain": 9.11,
+    "qty_hyphen_directory": 8.44,
+    "qty_equal_url": 8.25,
+    "qty_underline_url": 6.09
+  }
+}

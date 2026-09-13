@@ -1,0 +1,3 @@
+clase,prop_train,prop_test,n_train,n_test
+legítimo (0),0.6503,0.6503,45364,11342
+phishing (1),0.3497,0.3497,24393,6098

@@ -1,0 +1,21 @@
+{
+  "fecha_utc": "2026-09-13T10:35:38.384263+00:00",
+  "semilla": 42,
+  "modo": "completo",
+  "python": "3.11.16",
+  "sistema": "Windows-10-10.0.26200-SP0",
+  "cpus": 12,
+  "librerias": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "sklearn": "1.5.1",
+    "lightgbm": "4.5.0",
+    "xgboost": "2.1.1",
+    "catboost": "1.2.7",
+    "shap": "0.46.0",
+    "optuna": "3.6.1",
+    "matplotlib": "3.9.2",
+    "imblearn": "0.12.3"
+  }
+}

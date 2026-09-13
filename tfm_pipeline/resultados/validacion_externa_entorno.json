@@ -1,0 +1,43 @@
+{
+  "entorno": {
+    "python": "3.13.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "semilla": 42,
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "corr_max": 0.95,
+    "librerias": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "scipy": "1.18.1",
+      "sklearn": "1.9.0",
+      "lightgbm": "4.7.0",
+      "xgboost": "3.4.1",
+      "imblearn": "0.14.2"
+    }
+  },
+  "conjuntos": {
+    "phiusiil": {
+      "filas_originales": 235795,
+      "duplicados_eliminados": 0,
+      "filas": 235795,
+      "variables": 50,
+      "nulos": 0,
+      "positivos": 100945,
+      "negativos": 134850,
+      "ratio_desbalanceo": 1.336
+    },
+    "urlphish": {
+      "filas_originales": 116600,
+      "duplicados_eliminados": 1369,
+      "filas": 115231,
+      "variables": 22,
+      "nulos": 0,
+      "positivos": 16590,
+      "negativos": 98641,
+      "ratio_desbalanceo": 5.946
+    }
+  },
+  "minutos": 4.0,
+  "modo": "completo"
+}

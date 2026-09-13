@@ -1,0 +1,10 @@
+entrena_en,evalua_en,n_test,f1,mcc,roc_auc
+vrbancic,vrbancic,17442,0.8676,0.7944,0.9576
+vrbancic,phiusiil,47159,0.5956,-0.0008,0.6739
+vrbancic,urlphish,23047,0.2635,0.086,0.7652
+phiusiil,vrbancic,17442,0.5143,-0.0556,0.7316
+phiusiil,phiusiil,47159,0.9461,0.9129,0.956
+phiusiil,urlphish,23047,0.2502,-0.0289,0.8289
+urlphish,vrbancic,17442,0.1999,-0.337,0.3559
+urlphish,phiusiil,47159,0.3139,0.186,0.6084
+urlphish,urlphish,23047,0.6503,0.6038,0.932

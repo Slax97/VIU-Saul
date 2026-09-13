@@ -1,0 +1,54 @@
+# =============================================================================
+# TFM - Detección de Phishing mediante Machine Learning
+# Dependencias del proyecto (Python 3.11)
+#
+# Las versiones se fijan (pinning) para garantizar la reproducibilidad exacta
+# de los experimentos. Ver phases/00_environment_setup para la captura
+# automática del entorno (env_report.json).
+# =============================================================================
+
+# --- Núcleo científico / manejo de datos ---
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+
+# --- Machine Learning clásico ---
+scikit-learn==1.5.1
+imbalanced-learn==0.12.3          # Balanceo de clases (SMOTE, etc.)
+
+# --- Modelos de ensamblado / gradient boosting ---
+xgboost==2.1.1
+lightgbm==4.5.0
+
+# --- Interpretabilidad ---
+shap==0.46.0
+
+# --- Visualización ---
+matplotlib==3.9.2
+seaborn==0.13.2
+missingno==0.5.2                  # Visualización de valores perdidos
+
+# --- Estadística ---
+statsmodels==0.14.2
+
+# --- Entorno Jupyter y generación/ejecución de notebooks ---
+jupyterlab==4.2.4
+notebook==7.2.1
+ipykernel==6.29.5
+nbformat==5.10.4
+nbconvert==7.16.4
+
+# --- Utilidades / configuración / reproducibilidad ---
+pyyaml==6.0.2
+joblib==1.4.2
+tqdm==4.66.5
+tabulate==0.9.0
+
+# --- Optimización de hiperparámetros (Fase 7) ---
+optuna==3.6.1
+
+# --- Mejoras adicionales (post-revisión) ---
+catboost==1.2.7          # Modelo de boosting adicional (Fase 6)
+umap-learn==0.5.6        # Reducción no lineal (Fase 4)
+pyarrow==17.0.0          # Exportación a Parquet
+pytest==8.3.2            # Pruebas unitarias

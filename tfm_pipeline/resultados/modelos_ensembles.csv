@@ -1,0 +1,7 @@
+modelo,f1_mean,f1_std,tiempo_s
+Voting(soft),0.9526,0.0032,20.3
+LightGBM(ajustado),0.9521,0.0032,13.4
+Stacking,0.951,0.0035,85.9
+XGBoost,0.9503,0.0036,1.9
+CatBoost,0.9483,0.003,16.5
+RandomForest,0.9471,0.0038,5.9

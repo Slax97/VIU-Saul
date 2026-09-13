@@ -1,0 +1,6 @@
+representacion,n_variables,f1_mean,f1_std,tiempo_s
+variance,109,0.9613,0.0013,18.8
+filter_corr,54,0.9611,0.0018,14.8
+full,177,0.9608,0.0015,21.8
+modelo_final_sfm,177,0.9608,0.0015,19.3
+embedded_tree,55,0.9594,0.0019,16.2

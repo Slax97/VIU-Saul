@@ -1,0 +1,24 @@
+{
+  "entorno": {
+    "python": "3.13.3",
+    "sistema": "Windows-11-10.0.26200-SP0",
+    "semilla": 42,
+    "test_size": 0.2,
+    "cv_folds": 5,
+    "variables_comunes": [
+      "long_url",
+      "long_dominio",
+      "dominio_es_ip",
+      "n_interrogacion",
+      "n_igual",
+      "n_ampersand"
+    ],
+    "librerias": {
+      "numpy": "2.5.3",
+      "pandas": "3.0.5",
+      "sklearn": "1.9.0",
+      "lightgbm": "4.7.0"
+    }
+  },
+  "minutos": 0.6
+}

@@ -1,0 +1,7 @@
+escalador,f1_mean,f1_std,average_precision_mean,mcc_mean,tiempo_s
+RobustScaler,0.9058,0.0024,0.9651,0.8546,9.5
+StandardScaler,0.9058,0.0026,0.965,0.8546,2.4
+PowerTransformer(YJ),0.9036,0.0026,0.9638,0.8513,5.1
+MaxAbsScaler,0.8994,0.0022,0.9608,0.8441,3.6
+MinMaxScaler,0.8993,0.0023,0.9609,0.844,3.6
+sin_escalar,0.8705,0.0029,0.9445,0.7997,19.2

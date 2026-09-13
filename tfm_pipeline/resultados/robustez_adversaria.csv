@@ -1,0 +1,7 @@
+escenario,esfuerzo,phishing_detectado,recall,evadidos
+0% de esfuerzo,0.0,5865,0.9618,233
+25% de esfuerzo,0.25,5802,0.9515,296
+50% de esfuerzo,0.5,5611,0.9201,487
+75% de esfuerzo,0.75,4911,0.8053,1187
+100% de esfuerzo,1.0,90,0.0148,6008
+"todo, incluso lo que no controla",,0,0.0,6098

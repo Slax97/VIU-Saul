@@ -1,0 +1,6 @@
+frente_a,dif_F1,p,p_holm,significativo
+RandomForest,0.0055,0.0001,0.0003,sí
+CatBoost,0.0043,0.0001,0.0002,sí
+XGBoost,0.0024,0.0002,0.0005,sí
+Stacking,0.0017,0.0054,0.0107,sí
+LightGBM(ajustado),0.0005,0.1688,0.1688,no
