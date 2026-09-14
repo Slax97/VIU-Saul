@@ -4345,12 +4345,21 @@ def escribir(ejecutar: bool = True, timeout: int = 7200,
     }
     nb.metadata["language_info"] = {"name": "python"}
 
+    # En modo rapido el NOTEBOOK tambien va aparte, no solo sus resultados.
+    # Antes se escribia encima del bueno: los checkpoints y los CSV quedaban a
+    # salvo en las carpetas *_rapido, pero el .ipynb se quedaba con las salidas
+    # de la submuestra ---cinco ensayos de Optuna, Friedman no significativo---
+    # que contradicen a la memoria. Y ese notebook es lo que se deposita y lo
+    # que esta publicado, asi que el estropicio viajaba sin que nada avisara.
+    destino = (NB_PATH if modo == "completo"
+               else NB_PATH.with_name(NB_PATH.stem + "_rapido" + NB_PATH.suffix))
+
     def _volcar() -> None:
-        with NB_PATH.open("w", encoding="utf-8") as fh:
+        with destino.open("w", encoding="utf-8") as fh:
             nbformat.write(nb, fh)
 
     _volcar()
-    print(f"[OK] Notebook escrito ({len(CELDAS)} celdas): {NB_PATH}")
+    print(f"[OK] Notebook escrito ({len(CELDAS)} celdas): {destino}")
     if not ejecutar:
         return
 
@@ -4361,7 +4370,7 @@ def escribir(ejecutar: bool = True, timeout: int = 7200,
                                      startup_timeout=90)
             ep.preprocess(nb, {"metadata": {"path": str(NB_PATH.parent)}})
             _volcar()
-            print(f"[OK] Notebook ejecutado y guardado: {NB_PATH}")
+            print(f"[OK] Notebook ejecutado y guardado: {destino}")
             return
         except RuntimeError as err:  # arranque del kernel (frecuente en Windows)
             print(f"[AVISO] El kernel no arrancó: {err}. Reintentando...")
