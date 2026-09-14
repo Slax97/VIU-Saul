@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+data/externos/phiusiil2024/
+data/externos/urlphish2025/

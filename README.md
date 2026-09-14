@@ -19,6 +19,22 @@ sin ejecutar nada.
 | `tfm_pipeline/checkpoints/` | Puntos de control de cada etapa costosa |
 | `tfm_pipeline/resultados/` | Las 48 tablas de resultados y el registro de experimentos |
 | `tfm_pipeline/figuras/` | Las figuras, en PNG y PDF vectorial |
+| `data/externos/` | Descarga y verificación de los dos conjuntos de validación |
+
+Lo único que no está dentro del notebook es la **validación externa**, porque
+trabaja sobre otros conjuntos de datos. Son tres *scripts* en `tfm_pipeline/`:
+
+```bash
+python data/externos/descargar.py        # baja los dos conjuntos y verifica su SHA-256
+python tfm_pipeline/validacion_externa.py
+python tfm_pipeline/artefacto_phiusiil.py
+python tfm_pipeline/comparacion_conjuntos.py
+```
+
+Sus tablas quedan en `tfm_pipeline/resultados/` con los prefijos
+`validacion_externa` y `comparacion`. Los conjuntos externos no se versionan
+aquí: tienen su propia licencia y pesan, por lo que se bajan de su origen y se
+comprueba el SHA-256 de cada uno.
 
 ## Reproducirlo
 
@@ -49,7 +65,7 @@ accuracy = 0,973**, con intervalos de confianza por *bootstrap*.
 
 El protocolo repetido sobre otros dos conjuntos de datos muestra que las
 decisiones del trabajo se sostienen fuera de los datos originales; uno de los dos
-resultó tener una fuga de etiqueta y un sesgo de recogida, y de ahí salió una
+resultó tener dos fugas de etiqueta y un sesgo de recogida, y de ahí salió una
 batería de comprobaciones previas al entrenamiento que se aplica a los tres.
 
 ## Datos
