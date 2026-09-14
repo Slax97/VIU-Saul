@@ -1913,7 +1913,7 @@ md(r"""
 
     Seleccionar variables no es la única forma de reducir dimensiones: también
     se pueden **proyectar** a un espacio nuevo. La pregunta que responde este
-    bloque es si merece la pena.
+    bloque es si compensa.
 
     - **PCA**: proyección lineal no supervisada que maximiza la varianza
       retenida. Las componentes son combinaciones de todas las variables, así
@@ -3931,7 +3931,7 @@ code(r"""
 md(r"""
     ### Qué dice el resultado
 
-    Lo primero que vemos es que la degradación **no es lineal**. El modelo aguanta
+    Lo primero es que la degradación **no es lineal**. El modelo aguanta
     bien las modificaciones parciales: con la mitad del esfuerzo el
     recall apenas baja unos puntos, y hace falta llegar a tres cuartos para que
     empiece a resentirse de forma apreciable. Es decir, un atacante que se limite a acortar
@@ -4037,8 +4037,8 @@ code(r"""
 md(r"""
     ### Qué dice el resultado
 
-    La caída del F1 es considerable, pero **mirar solo el F1 aquí despista**. Si
-    comparamos métrica a métrica vemos algo más interesante:
+    La caída del F1 es considerable, pero **mirar solo el F1 aquí despista**. Al
+    comparar métrica a métrica aparece algo más interesante:
 
     - La **precisión no baja**; incluso sube un poco. Lo que el modelo marca como
       phishing lo sigue siendo.
