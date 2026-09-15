@@ -2758,6 +2758,11 @@ code(r"""
             'RandomForest': rf(),
             'CatBoost': catboost(),
             'Voting(soft)': VotingClassifier(base, voting='soft', n_jobs=-1),
+            # Es el unico LogisticRegression del notebook sin random_state, de doce.
+            # No afecta: el solver por defecto es lbfgs, que es determinista, y
+            # scikit-learn solo usa random_state con sag, saga o liblinear
+            # (comprobado ajustandolo cinco veces: coeficientes identicos). Se deja
+            # como esta para no reejecutar el notebook entero por un cambio inerte.
             'Stacking': StackingClassifier(
                 base, final_estimator=LogisticRegression(max_iter=1000), cv=3, n_jobs=-1),
         }
