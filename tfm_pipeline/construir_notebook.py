@@ -4164,8 +4164,12 @@ md(r"""
        estimación más conservadora, y por tanto más creíble.
     2. **Prevención de fugas.** No todos los trabajos detallan cómo evitan
        aplicar escalado, selección o SMOTE **antes** de particionar, que es la
-       vía habitual de contaminar el resultado sin darse cuenta. Aquí todo el
-       preprocesamiento ajustado a datos ocurre dentro de los pliegues.
+       vía habitual de contaminar el resultado sin darse cuenta. Aquí la
+       imputación, el escalado y el remuestreo se ajustan dentro de los pliegues,
+       y ninguno de los tres ve el test. La selección de variables es la
+       excepción declarada: sus subconjuntos se calculan una vez sobre el
+       entrenamiento completo, nunca antes de particionar, y su efecto se acota
+       reevaluándolos con el modelo final (bloque 3).
     3. **Métricas.** Con clases desbalanceadas el accuracy infla la impresión
        de calidad; se reportan además F1, PR-AUC y MCC con intervalos de
        confianza.
