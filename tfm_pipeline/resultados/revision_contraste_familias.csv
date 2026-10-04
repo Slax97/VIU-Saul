@@ -1,0 +1,7 @@
+frente_a,dif_F1,p,p_holm,significativo
+RandomForest,0.0044,6.1e-05,0.000366,si
+"MLP(64,32)",0.0213,6.1e-05,0.000366,si
+kNN(k=5),0.0327,6.1e-05,0.000366,si
+SVM-RBF(Nystroem),0.0419,6.1e-05,0.000366,si
+LogisticRegression,0.0614,6.1e-05,0.000366,si
+XGBoost,0.0013,0.00116,0.00116,si

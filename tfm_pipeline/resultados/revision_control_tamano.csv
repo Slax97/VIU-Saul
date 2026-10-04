@@ -1,0 +1,7 @@
+particion,n_entrenamiento,n_evaluacion,phishing_entrenamiento,phishing_evaluacion,precision,recall,f1,mcc,roc_auc
+por antiguedad,26162,61035,0.057,0.4752,0.9716,0.6764,0.7976,0.6989,0.9606
+aleatoria (semilla 42),26162,61035,0.3514,0.3489,0.9545,0.9521,0.9533,0.9283,0.994
+aleatoria (semilla 7),26162,61035,0.353,0.3483,0.9525,0.9579,0.9552,0.9312,0.9947
+aleatoria (semilla 13),26162,61035,0.3513,0.349,0.9514,0.9566,0.954,0.9292,0.9942
+aleatoria (semilla 2024),26162,61035,0.3495,0.3498,0.9562,0.9541,0.9552,0.9311,0.9948
+aleatoria (semilla 99),26162,61035,0.3505,0.3493,0.9516,0.9558,0.9537,0.9288,0.9944

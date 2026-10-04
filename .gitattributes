@@ -1,0 +1,18 @@
+# El conjunto de datos y los puntos de control se verifican por SHA-256 al
+# cargarlos. Si git convirtiera sus finales de linea al clonar ---y en Windows
+# lo hace por omision, con core.autocrlf=true--- el hash dejaria de coincidir y
+# el codigo abortaria. Se declaran como binarios para que git no los toque: lo
+# que se clona es byte a byte lo que se publico.
+*.csv   binary
+*.parquet binary
+*.joblib binary
+*.db    binary
+*.png   binary
+*.pdf   binary
+
+# El cuaderno es JSON y viaja con sus salidas, entre ellas imagenes en base64.
+# Tampoco conviene que le cambien nada.
+*.ipynb binary
+
+# El resto, con finales de linea normalizados.
+*       text=auto eol=lf

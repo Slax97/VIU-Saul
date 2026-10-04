@@ -1,0 +1,31 @@
+comparacion,semilla,variante,f1_mean,f1_completo
+imputador,42,mediana+indicador,0.9057,0.905693470444727
+imputador,42,media+indicador,0.9057,0.9056715844842674
+imputador,7,mediana+indicador,0.9056,0.9056430626418587
+imputador,7,media+indicador,0.9056,0.9056470796965016
+imputador,123,mediana+indicador,0.9049,0.904897305558422
+imputador,123,media+indicador,0.9052,0.9051889892493763
+imputador,2024,mediana+indicador,0.9054,0.9053668306570941
+imputador,2024,media+indicador,0.9054,0.9054184181696984
+imputador,31337,mediana+indicador,0.9066,0.9066232865487251
+imputador,31337,media+indicador,0.9068,0.9067757705070173
+escalador,42,StandardScaler,0.9058,0.9057678230402916
+escalador,42,RobustScaler,0.9058,0.9058017173232564
+escalador,7,StandardScaler,0.9057,0.9057334897053515
+escalador,7,RobustScaler,0.9056,0.9056072851728778
+escalador,123,StandardScaler,0.9052,0.9051889800095763
+escalador,123,RobustScaler,0.9053,0.9053389952250297
+escalador,2024,StandardScaler,0.9054,0.9054390158095902
+escalador,2024,RobustScaler,0.9058,0.9057529674079413
+escalador,31337,StandardScaler,0.9068,0.9067637398149981
+escalador,31337,RobustScaler,0.9066,0.9065728858341945
+representacion,42,variance (109),0.9611,0.9611066002620486
+representacion,42,filter_corr (54),0.9608,0.9608428159788117
+representacion,7,variance (109),0.9612,0.9612209244058969
+representacion,7,filter_corr (54),0.9619,0.9619112916317034
+representacion,123,variance (109),0.9604,0.9603650152471259
+representacion,123,filter_corr (54),0.9603,0.9603164304637619
+representacion,2024,variance (109),0.9601,0.9600626779027961
+representacion,2024,filter_corr (54),0.9601,0.9600861087224851
+representacion,31337,variance (109),0.9608,0.9608109445345899
+representacion,31337,filter_corr (54),0.9609,0.9609202547833038

@@ -1,0 +1,16 @@
+variable_a,variable_b,interaccion_media
+qty_slash_url,time_domain_activation,0.3021
+qty_slash_url,length_url,0.23929
+qty_slash_url,qty_dot_domain,0.12258
+time_domain_activation,missingindicator_time_domain_expiration,0.1193
+qty_slash_url,ttl_hostname,0.09926
+qty_slash_url,directory_length,0.09749
+qty_slash_url,time_response,0.08136
+length_url,time_domain_activation,0.06257
+time_response,time_domain_activation,0.05981
+qty_slash_url,tls_ssl_certificate,0.05914
+time_response,ttl_hostname,0.05827
+qty_dot_domain,time_domain_activation,0.0544
+asn_ip,ttl_hostname,0.05204
+time_domain_activation,time_domain_expiration,0.05202
+asn_ip,time_domain_activation,0.05163

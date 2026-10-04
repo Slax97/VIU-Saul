@@ -1,0 +1,4 @@
+variante,n_variables,f1_mean,f1_std,tiempo_s
+con indicador (el del trabajo),54,0.9608,0.0021,5.7
+"sin indicador, mediana",45,0.9603,0.002,5.8
+"sin imputar, NaN nativo de LightGBM",45,0.9613,0.0016,6.2

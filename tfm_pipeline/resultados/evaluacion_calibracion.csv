@@ -1,0 +1,4 @@
+variante,brier,log_loss
+sin calibrar,0.02068,0.07769
+Platt (sigmoide),0.02136,0.08797
+isotónica,0.02044,0.07543

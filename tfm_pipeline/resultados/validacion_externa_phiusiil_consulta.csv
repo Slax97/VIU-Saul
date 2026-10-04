@@ -1,0 +1,4 @@
+variable,legitimas_con_valor,phishing_con_valor,pct_legitimas,pct_phishing
+NoOfQMarkInURL,0,6124,0.0,6.17
+NoOfEqualsInURL,0,5394,0.0,5.435
+NoOfAmpersandInURL,0,887,0.0,0.894

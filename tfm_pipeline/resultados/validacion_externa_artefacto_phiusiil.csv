@@ -1,0 +1,15 @@
+variable,mediana_legitima,mediana_phishing
+LineOfCode,1105.0,12.0
+LargestLineLength,3066.0,138.0
+NoOfImage,25.0,0.0
+NoOfCSS,6.0,0.0
+NoOfJS,14.0,0.0
+NoOfSelfRef,76.0,0.0
+NoOfExternalRef,46.0,0.0
+HasTitle,1.0,1.0
+HasFavicon,1.0,0.0
+HasDescription,1.0,0.0
+HasCopyrightInfo,1.0,0.0
+HasSocialNet,1.0,0.0
+IsResponsive,1.0,0.0
+HasSubmitButton,1.0,0.0

@@ -1,0 +1,4 @@
+estimacion,f1
+CV anidada (insesgada),0.9608
+CV 5 pliegues en train completo,0.9608
+TEST reservado,0.9616

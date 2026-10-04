@@ -1,0 +1,6 @@
+trabajo,enfoque,protocolo,accuracy,f1,referencia
+Vrbančič et al. (2020) — dataset original,"Modelos de referencia (SVM, RF...)",CV,,,Data in Brief 33:106438
+"Feature Selection (Springer, 2022)",Selección de variables + ML,CV,0.965,0.96,doi:10.1007/978-3-030-95918-0_7
+"Novel Feature Selection (Springer, 2022)",RF/XGBoost + selección,CV 10 pliegues,0.9729,0.97,doi:10.1007/978-981-19-2445-3_24
+"Empirical Feature Selection (Springer, 2022)",XGBoost + selección,CV,0.9608,0.96,doi:10.1007/978-3-031-17181-9_14
+ESTE TFM (LightGBM ajustado),Pipeline completo sin fugas + interpretabilidad,TEST reservado + CV anidada,0.9732,0.9616,Bloque 8

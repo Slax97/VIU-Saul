@@ -1,0 +1,8 @@
+version,origen,filas,columnas,descripcion
+v01_sin_duplicados,dataset_full (crudo),87197,112,Sin conflictos de etiqueta ni duplicados exactos
+v02_centinela_nan,v01_sin_duplicados,87197,112,Centinela -1 reinterpretado como NaN
+v03_particion_train,v02_centinela_nan,69757,112,Entrenamiento canónico (con NaN)
+v03_particion_test,v02_centinela_nan,17440,112,Prueba canónica reservada (con NaN)
+v04_imputado_train,v03_particion_train,69757,178,Imputación «mediana+indicador» ajustada solo en train
+v05_escalado_train,v04_imputado_train,69757,178,Entrenamiento escalado con StandardScaler
+v06_seleccionado_train,v05_escalado_train,69757,55,Reducido a 54 variables (filter_corr)

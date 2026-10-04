@@ -1,0 +1,4 @@
+conjunto,filas,variables,clase_mayoritaria,mejor_variable_sola,acc_una_variable,ventaja_puntos,n_degeneradas,degeneradas,f1_arbol_prof1,f1_arbol_prof2,f1_arbol_prof3
+vrbancic,87209,111,0.6503,directory_length,0.8908,24.05,0,,0.8335,0.8501,0.8822
+phiusiil,235795,50,0.5719,URLSimilarityIndex,0.9967,42.48,2,URLSimilarityIndex; IsHTTPS,0.9961,0.9999,1.0
+urlphish,115231,22,0.856,digit_ratio,0.9026,4.66,0,,0.6212,0.6337,0.6689

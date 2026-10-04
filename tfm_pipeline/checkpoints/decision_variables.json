@@ -1,0 +1,9 @@
+{
+  "mejor_representacion": "variance",
+  "f1_mejor": 0.9613,
+  "f1_seleccion_actual": 0.9611,
+  "ganancia": 0.0002,
+  "p_wilcoxon": 0.6788,
+  "cambiar_representacion": false,
+  "representacion_definitiva": "filter_corr"
+}

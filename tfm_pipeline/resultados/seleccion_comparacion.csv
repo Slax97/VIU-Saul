@@ -1,0 +1,7 @@
+subconjunto,n_variables,f1_mean,f1_std,average_precision_mean,roc_auc_mean,mcc_mean
+full,177,0.9058,0.0025,0.965,0.9808,0.8546
+embedded_l1,59,0.8997,0.0026,0.9616,0.9791,0.8451
+filter_corr,54,0.8996,0.0025,0.9617,0.9791,0.8451
+variance,109,0.8996,0.0026,0.9617,0.9791,0.845
+wrapper,109,0.8996,0.0026,0.9617,0.9791,0.845
+embedded_tree,55,0.8684,0.0024,0.9444,0.9687,0.7963

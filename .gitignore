@@ -1,0 +1,22 @@
+# Entornos virtuales
+.venv/
+.venv311/
+venv/
+env/
+
+# Caches de Python y de Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Los dos conjuntos de validacion externa NO se versionan: son 69 MB de
+# terceros, publicados con DOI estable y licencia propia. Lo que se versiona es
+# data/externos/descargar.py, que los baja y verifica su SHA-256, y el README
+# que documenta cada uno. Eso reproduce mejor que guardar los ficheros.
+data/externos/**/*.csv
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

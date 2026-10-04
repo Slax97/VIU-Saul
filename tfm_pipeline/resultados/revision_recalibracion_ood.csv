@@ -1,0 +1,5 @@
+variante,umbral,valor_umbral,n_total,n_desconocidos,n_train,n_calibracion,n_evaluacion,precision,recall,f1,mcc,roc_auc
+tal como lo hace el notebook,"umbral 0,50",0.5,87197,23131,26162,18310,42725,0.97,0.6791,0.7989,0.6996,0.9607
+tal como lo hace el notebook,umbral recalibrado,0.02,87197,23131,26162,18310,42725,0.8919,0.8995,0.8957,0.8005,0.9607
+excluyendo los de antiguedad desconocida,"umbral 0,50",0.5,64066,23131,19222,13453,31391,0.9785,0.7336,0.8386,0.7664,0.9792
+excluyendo los de antiguedad desconocida,umbral recalibrado,0.02,64066,23131,19222,13453,31391,0.9322,0.8994,0.9155,0.856,0.9792

@@ -1,0 +1,8 @@
+variable,constante_en_clase,valor,casos_otra_clase_distintos,pct_otra_clase
+IsDomainIP,1,0.0,638,0.643
+HasObfuscation,1,0.0,485,0.489
+NoOfObfuscatedChar,1,0.0,485,0.489
+ObfuscationRatio,1,0.0,485,0.489
+NoOfEqualsInURL,1,0.0,5394,5.435
+NoOfQMarkInURL,1,0.0,6124,6.17
+NoOfAmpersandInURL,1,0.0,887,0.894

@@ -1,0 +1,16 @@
+{
+  "n_instancias": 88647,
+  "n_variables": 111,
+  "imbalance_ratio": 1.8925,
+  "variables_con_centinela": 66,
+  "celdas_centinela": 3428432,
+  "variables_binarias": 19,
+  "variables_constantes": 13,
+  "variables_cuasi_constantes": 16,
+  "pares_correlacion_alta": 337,
+  "pares_ausencia_conjunta": 822,
+  "duplicados_exactos": 1438,
+  "duplicados_en_variables": 1444,
+  "grupos_con_etiqueta_contradictoria": 6,
+  "filas_en_conflicto": 13
+}
